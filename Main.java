@@ -9,12 +9,12 @@ public class Main {
         dll.print();
         dll.deleteFirst();
         dll.print();
-        dll.printFromTail();
-        dll.deleteLast();
-        dll.print();
         //lanjutkan dengan memanggil method addLast, deleteLast, printFromTail
         //lanjutkan dengan memanggil method merge, split
-
+        
+        dll.deleteLast();
+        dll.print();
+        dll.printFromTail();
         System.out.print("Original list: ");
         dll.print();
         split(dll);

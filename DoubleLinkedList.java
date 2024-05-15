@@ -47,11 +47,9 @@ public class DoubleLinkedList {
         System.out.println("List Kosong, Tidak ada yg dapat didelete.");
         return;
         }
-        // Jika daftar hanya memiliki satu elemen
         if(head == tail){
             head = tail = null;
         }else{
-            // Jika daftar memiliki lebih dari satu elemen
             tail = tail.p;
             tail.n = null;
         }
